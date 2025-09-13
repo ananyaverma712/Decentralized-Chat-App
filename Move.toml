@@ -1,0 +1,15 @@
+[package]
+name = "Decentralized-Chat-App"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x42849aeb817c40de7bb0874c9ef724f81259280fcfbac4fa25e4fab40a094fe4"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
